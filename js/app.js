@@ -203,8 +203,29 @@ console.log(oddBonds);
 
 //   &#x1F534; **Commit:** "oddBonds" //DONE
 
+// 7. Determine the total cumulative gross of the Bond franchise, and console.log the result.
+// let test = ["3243h4423"]
+// test.replace(/h/, "");
 
-// 7. Determine the total cumulative gross of the Bond franchise, and console.log the result. 
+let test = ["$285,157,191"];
+    newStr = test.replace(",","");
+    console.log(newStr);
+
+
+  // .replace DOES NOT WORK FML
+  
+
+// tempNums = [];
+// let t = parseInt(bondFilms.gross, 10)
+// const findTotal = () => {
+//     for (let i = 0; i < bondFilms.length; i++) {
+//         bondFilms[i].gross = parseInt(bondFilms[i].gross, 10)
+//         tempNums.push(bondFilms[i].gross)
+//     }
+//     console.log(tempNums);
+// }
+// findTotal();
+
 //   > _Hint_: To make the grosses into usable numbers, look into the `.replace` Javascript method (there are many ways to do this, however). Look into `parseInt()` also.  
 
 //   &#x1F534; **Commit:** "bond films gross"
